@@ -16,7 +16,7 @@ def load_plugins():
     plugins_dir = os.path.join(os.path.dirname(__file__), 'plugins')
 
     for filename in os.listdir(plugins_dir):
-        if filename == '__init__.py':  # Skip the __init__.py file
+        if filename == '__init__.py':  
             continue
         if filename.endswith('.py'):
             module_name = f'app.plugins.{filename[:-3]}'

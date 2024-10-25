@@ -1,4 +1,3 @@
-# tests/test_history.py
 import os
 import pandas as pd
 from app.history_manager import HistoryManager
@@ -7,7 +6,6 @@ from app.history_manager import HistoryManager
 def test_history_manager_add_record():
     test_file = 'data/test_history.csv'
 
-    # Make sure the file is empty before the test
     if os.path.exists(test_file):
         os.remove(test_file)
 

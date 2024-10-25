@@ -22,12 +22,11 @@ class App:
     The App class handles the main REPL loop and command execution logic.
     """
 
-    # pylint: disable=too-few-public-methods
     def __init__(self):
         """
         Initialize the app, load environment variables, and commands (including plugins).
         """
-        load_dotenv()  # Load environment variables
+        load_dotenv()
         environment = os.getenv('ENVIRONMENT', 'production')
         logging.info("Running in %s mode", environment)
 
@@ -38,9 +37,8 @@ class App:
             'divide': DivideCommand()
         }
 
-        # Load additional plugins dynamically
         self.commands.update(load_plugins())
-        self.history_manager = HistoryManager()  # Initialize the history manager
+        self.history_manager = HistoryManager()
 
     def start(self) -> None:
         """
@@ -88,7 +86,6 @@ class App:
                     )
                     print("Result:", result)
 
-                    # Save the result to history
                     self.history_manager.add_record(command_name, a, b, result)
                     self.history_manager.save_history()
 

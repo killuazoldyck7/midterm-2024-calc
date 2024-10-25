@@ -1,4 +1,3 @@
-# tests/test_commands.py
 import pytest
 from app.commands.add import AddCommand
 from app.commands.subtract import SubtractCommand

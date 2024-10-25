@@ -1,0 +1,7 @@
+2024-10-25 03:34:04,988 - INFO - Running in production mode
+2024-10-25 03:34:04,991 - INFO - Application started.
+2024-10-25 03:34:14,869 - INFO - Executed add command with values: 6.0, 10.0. Result: 16.0
+2024-10-25 03:34:24,071 - WARNING - Unknown command entered.
+2024-10-25 03:35:00,534 - INFO - Executed divide command with values: 9.0, 3.0. Result: 3.0
+2024-10-25 03:35:30,797 - ERROR - Attempted division by zero.
+2024-10-25 03:35:36,978 - INFO - Exiting application.

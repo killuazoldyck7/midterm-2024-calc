@@ -1,4 +1,3 @@
-# tests/test_app.py
 import pytest
 from app import App
 from app.commands.divide import DivideCommand
@@ -37,8 +36,6 @@ def test_app_history_command(monkeypatch, capsys):
     app.start()
 
     captured = capsys.readouterr()
-    # Instead of checking the exact output, check for key components of the
-    # DataFrame
     assert "Command" in captured.out
     assert "Operand1" in captured.out
     assert "Operand2" in captured.out
