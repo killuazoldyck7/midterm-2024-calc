@@ -140,6 +140,9 @@ This project includes a GitHub Actions workflow for Continuous Integration (CI).
 
 ◦ **Impact**: Automated CI provides quick feedback on code quality and functionality, making the development process efficient and reliable.
 
+## Video Demonstration
+
+[Watch the Video Demonstration](https://drive.google.com/file/d/1vWo7-i9XW6YPIIrZbG2QPPtgce2ef5xC/view?usp=drive_link)
 
 ## Conclusion
 This project demonstrates professional software development practices focusing on clean architecture, extensibility, and maintainability. The Command Pattern, Plugin System, and comprehensive logging enhance scalability and ease of management across development and production environments.
