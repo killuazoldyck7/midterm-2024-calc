@@ -35,7 +35,7 @@ midterm-2024-calc/
 ## Setup Instructions
 
 #### 1. Clone the Repository
-git clone <your-repository-url>
+git clone https://github.com/killuazoldyck7/midterm-2024-calc.git
 cd midterm-2024-calc
 
 #### 2. Create and Activate a Virtual Environment
