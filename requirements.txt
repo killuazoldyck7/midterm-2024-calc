@@ -1,0 +1,6 @@
+pandas
+pytest
+python-dotenv
+pytest-cov
+pylint
+logging
