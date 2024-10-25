@@ -30,7 +30,7 @@ midterm-2024-calc/
 ├── README.md                  # Project documentation
 ├── main.py                    # Entry point to run the app
 └── pytest.ini                 # Pytest configuration
-
+```
 
 ## Setup Instructions
 
